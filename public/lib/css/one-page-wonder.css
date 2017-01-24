@@ -39,14 +39,16 @@ body {
 
 .headline h1 {
     font-size: 130px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    color: #FFD600;
+    /*background: #fff;*/
+    /*background: rgba(255,255,255,0.9);*/
 }
 
 .headline h2 {
     font-size: 77px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    color: #17488A;
+    /*background: #fff;*/
+    /*background: rgba(255,255,255,0.9);*/
 }
 
 .featurette-divider {
