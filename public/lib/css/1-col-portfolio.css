@@ -19,9 +19,11 @@ footer {
 .navbar-inverse 
 .navbar-brand {
     color: #FFD600;
+    font-family: 'Lobster', cursive;
 }
 
 .navbar-inverse
 .navbar-nav li a {
     color: #FFD600;
+    font-family: 'Lobster', cursive;
 }
