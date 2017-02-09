@@ -27,7 +27,7 @@ body {
 .header-image {
     display: block;
     width: 100%;
-    text-align: center;
+    text-align: left;
     background: url('../img/netwerken2.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -37,14 +37,13 @@ body {
 
 .headline {
     padding: 120px 0;
+    /*margin-left: 0px;*/
 }
 
 .headline h1 {
     font-size: 130px;
     color: #FFD600;
     font-family: 'Lobster', cursive;
-    /*background: #fff;*/
-    /*background: rgba(255,255,255,0.9);*/
 }
 
 .headline h2 {
