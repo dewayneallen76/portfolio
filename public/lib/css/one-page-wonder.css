@@ -82,6 +82,10 @@ body {
 
 }
 
+a:focus,
+a:active {
+    outline: none;
+}
 
 footer {
     margin: 50px 0;
