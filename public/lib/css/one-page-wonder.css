@@ -28,10 +28,10 @@ body {
     display: block;
     width: 100%;
     text-align: left;
-    background: url('../img/netwerken2.jpg') no-repeat center center scroll;
+    background: url('../img/eagle.png') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
+    background-size: 100% 100%;
     -o-background-size: cover;
 }
 
