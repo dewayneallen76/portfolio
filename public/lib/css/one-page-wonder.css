@@ -26,6 +26,7 @@ body {
 
 .header-image {
     display: block;
+    height: 100%;
     width: 100%;
     text-align: left;
     background: url('../img/eagle.png') no-repeat center center scroll;
