@@ -44,13 +44,14 @@ body {
 
 .headline h1 {
     font-size: 130px;
-    color: black;
+    color: #FFD600;
     font-family: 'Lobster', cursive;
 }
 
 .headline h2 {
     font-size: 77px;
     color: #17488A;
+    text-align: center;
     font-family: 'Lobster', cursive;
     /*background: #fff;*/
     /*background: rgba(255,255,255,0.9);*/
