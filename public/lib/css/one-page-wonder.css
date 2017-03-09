@@ -91,6 +91,11 @@ body {
 
 }
 
+.modal-body, 
+.modal-title {
+    color: black;
+}
+
 a:focus,
 a:active {
     outline: none;
