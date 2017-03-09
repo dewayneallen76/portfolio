@@ -26,6 +26,11 @@ body {
     font-family: 'Lobster', cursive;
 }
 
+.brand {
+    height: 45px;
+    width: 45px;
+    /*padding-top: 5px;*/
+}
 .header-image {
     display: block;
     height: 100%;
