@@ -166,6 +166,11 @@
         $(document).ready(function() {
             $('div.headline').fadeIn(2500);
         });
+
+        $(".navbar-nav li a").click(function(event) {
+            if (!$(this).parent().hasClass('dropdown'))
+            $(".navbar-collapse").collapse('hide');
+        });
     </script>
     <!-- Bootstrap Core JavaScript -->
     <script src="lib/js/bootstrap.min.js"></script>
