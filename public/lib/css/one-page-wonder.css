@@ -91,6 +91,10 @@ body {
 
 }
 
+.lead {
+    text-align: justify;
+}
+
 .modal-body, 
 .modal-title {
     color: black;
