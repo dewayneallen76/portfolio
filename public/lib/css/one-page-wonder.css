@@ -12,9 +12,10 @@ body {
 
 .navbar {
     background-color: black;
+    font-size: 25px;
 }
 
-.navbar-inverse 
+.navbar-inverse
 .navbar-brand {
     color: #FFD600;
     font-family: 'Lobster', cursive;
@@ -95,7 +96,7 @@ body {
     text-align: justify;
 }
 
-.modal-body, 
+.modal-body,
 .modal-title {
     color: black;
 }
