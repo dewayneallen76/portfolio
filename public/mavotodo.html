@@ -9,20 +9,22 @@
   <title>Mavo To Do List</title>
 </head>
 <body>
-  <div mv-app="mavoTest">
-    My first Mavo app!
-  </div>
-  <div mv-app id="commentForm" mv-storage="local" mv-autosave="0">
-    <label>
-      Email:
-      <input type="email" property="email" value="foo@bar.com">
-    </label>
-    <label>
-      Message:
-      <textarea property="message">
-        Edit the form and notice how the values persist.
-      </textarea>
-    </label>
-  </div>
+  <main mv-app="todo" mv-storage="local" mv-mode="edit">
+  	<header>
+  		<h1>My tasks</h1>
+  		<p><strong>[count(done)]</strong> done out of <strong>[count(task)]</strong> total</p>
+  	</header>
+
+  	<ul>
+  		<li property="task" mv-multiple>
+  			<label>
+  				<input property="done" type="checkbox" />
+  				<span property="taskTitle">Do stuff</span>
+  			</label>
+  		</li>
+  	</ul>
+
+  </main>
+
 </body>
 </html>
