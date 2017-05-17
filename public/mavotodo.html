@@ -12,5 +12,17 @@
   <div mv-app="mavoTest">
     My first Mavo app!
   </div>
+  <div mv-app id="commentForm" mv-storage="local" mv-autosave="0">
+    <label>
+      Email:
+      <input type="email" property="email" value="foo@bar.com">
+    </label>
+    <label>
+      Message:
+      <textarea property="message">
+        Edit the form and notice how the values persist.
+      </textarea>
+    </label>
+  </div>
 </body>
 </html>
