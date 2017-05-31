@@ -27,6 +27,7 @@ button.mv-add.mv-ui.mv-add-task {
 
 div.mv-item-bar.mv-ui {
   position: relative;
-  float: right;
   opacity: 1;
+  border: 0;
+  float: right;
 }
