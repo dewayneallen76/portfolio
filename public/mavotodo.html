@@ -4,29 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://get.mavo.io/mavo.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="lib/css/mavotod.css">
   <link href="lib/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://get.mavo.io/mavo.css">
   <script src="https://get.mavo.io/mavo.js" charset="utf-8"></script>
   <title>Mavo To Do List</title>
 </head>
 <body>
-  <div class="container-fluid">
+  <div class="container-fluid text-center">
   <main mv-app="todo" mv-storage="local" mv-mode="edit">
   	<header>
   		<h1>To Do List</h1>
   		<p><strong>[count(done)]</strong> done out of <strong>[count(task)]</strong> total</p>
   	</header>
-
+    <div class="container-fluid text-center"
   	<ul>
-  		<li property="task" mv-multiple>
+  		<li class="list" property="task" mv-multiple>
   			<label>
   				<input property="done" type="checkbox" />
   				<span property="taskTitle"></span>
   			</label>
   		</li>
   	</ul>
-
+    </div>
   </main>
   </div>
 </body>
