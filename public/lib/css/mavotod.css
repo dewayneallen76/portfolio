@@ -24,3 +24,9 @@ button.mv-add.mv-ui.mv-add-task {
   font-family: 'Permanent Marker', cursive;
   font-size: 20px;
 }
+
+div.mv-item-bar.mv-ui {
+  position: relative;
+  float: right;
+  opacity: 1;
+}
