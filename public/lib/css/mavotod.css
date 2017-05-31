@@ -2,11 +2,20 @@ body {
   background: url(/lib/img/lined_paper_@2X.png);
   background-size: cover;
 }
-
-header, li {
-  font-family: 'Permanent Marker', cursive;
+.title {
+  font-size: 60px;
 }
 
-input[type=checkbox]:checked + label.strikethrough {
-  text-decoration: line-through;
+header {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
+}
+
+li {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 25px;
+}
+
+.strikethrough:checked + span {
+  text-decoration:line-through
 }
