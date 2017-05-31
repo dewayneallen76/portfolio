@@ -19,3 +19,7 @@ li {
 .strikethrough:checked + span {
   text-decoration:line-through
 }
+
+button {
+  text-decoration-color: red;
+}
