@@ -17,9 +17,10 @@ li {
 }
 
 .strikethrough:checked + span {
-  text-decoration:line-through
+  text-decoration:line-through;
 }
 
-button {
-  text-decoration-color: red;
+button.mv-add.mv-ui.mv-add-task {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
 }
