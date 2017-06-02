@@ -1,6 +1,7 @@
 body {
   background: url(/lib/img/lined_paper_@2X.png);
-  background-size: cover;
+
+
 }
 .title {
   font-size: 60px;
@@ -31,3 +32,13 @@ div.mv-item-bar.mv-ui {
   border: 0;
   float: right;
 }
+/*
+main {
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  background: url(/lib/img/lined_paper_@2X.png);
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+}*/
