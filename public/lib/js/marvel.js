@@ -34,9 +34,9 @@ getMarvelData();
 
 function addCharacter(marvelObject) {
   var content = '';
-  content += '<h3>' + marvelObject.data.results[0].name + '</h3>';
-  content += '<p>' + marvelObject.data.results[0].description + '</p>';
-  content += '<img src="' + marvelObject.data.results[0].thumbnail.path + '.' +
+  content += '<h3 class="col-md-4">' + marvelObject.data.results[0].name + '</h3>';
+  content += '<img class="col-md-4" src="' + marvelObject.data.results[0].thumbnail.path + '.' +
   marvelObject.data.results[0].thumbnail.extension + '"/>';
+  content += '<p class="col-md-8">' + marvelObject.data.results[0].description + '</p>';
   $('#addCharacter').html(content);
 };
