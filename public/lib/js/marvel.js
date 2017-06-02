@@ -8,8 +8,19 @@ var marvelOptions = {
   apikey: myAPIKey
 }
 
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    // console.log(results);
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
 function getMarvelData () {
-  $.get("https://gateway.marvel.com:443/v1/public/characters?name=daredevil",marvelOptions).done(function(data) {
+  $.get("https://gateway.marvel.com:443/v1/public/characters?name=" + getParameterByName('name'),marvelOptions).done(function(data) {
     marvelObject = data;
     addCharacter(marvelObject);
     console.log(marvelObject);
