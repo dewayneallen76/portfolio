@@ -13,8 +13,8 @@ function getMarvelData () {
     marvelObject = data;
     addCharacter(marvelObject);
     console.log(marvelObject);
-    console.log(marvelObject.data.results[0].thumbnail.path);
-    console.log(marvelObject.data.results[0].description);
+    // console.log(marvelObject.data.results[0].thumbnail.path);
+    // console.log(marvelObject.data.results[0].description);
   }).fail(function(xhr, err, msg) {
     alert('Failed to connect!');
   });
@@ -25,5 +25,7 @@ function addCharacter(marvelObject) {
   var content = '';
   content += '<h3>' + marvelObject.data.results[0].name + '</h3>';
   content += '<p>' + marvelObject.data.results[0].description + '</p>';
+  content += '<img src="' + marvelObject.data.results[0].thumbnail.path + '.' +
+  marvelObject.data.results[0].thumbnail.extension + '"/>';
   $('#addCharacter').html(content);
 };
