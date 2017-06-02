@@ -8,6 +8,7 @@ var marvelOptions = {
   apikey: myAPIKey
 }
 
+
 function getParameterByName(name, url) {
     if (!url) url = window.location.href;
     name = name.replace(/[\[\]]/g, "\\$&");
@@ -15,7 +16,6 @@ function getParameterByName(name, url) {
         results = regex.exec(url);
     if (!results) return null;
     if (!results[2]) return '';
-    // console.log(results);
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
